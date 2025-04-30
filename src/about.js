@@ -37,7 +37,7 @@ function generateAboutPage() {
     locationText.textContent = "Fort Frogs: 072025290401.";
     locationText2.textContent = "Kingdom Frogs: 072025300402.";
     locationText3.textContent = "Frog Palace: 072025310403"
-    formTitle.textContent = "We welcome your feedback";
+    formTitle.textContent = "We value your feedback.";
     submit.textContent = "Submit";
     content.appendChild(contactTitle);
     content.appendChild(contactText);

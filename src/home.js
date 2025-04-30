@@ -38,8 +38,8 @@ function generateHomePage() {
     sunday.textContent = "Sunday: 10am - 11pm";
     locationTitle.textContent = "Location";
     locationText.textContent = "Fort Frogs.";
-    locationText2.textContent = "Kingdom Frogs";
-    locationText3.textContent = "Frog Palace";
+    locationText2.textContent = "Kingdom Frogs.";
+    locationText3.textContent = "Frog Palace.";
     content.appendChild(resName);
     content.appendChild(img);
     content.appendChild(summary);
