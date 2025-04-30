@@ -185,6 +185,7 @@ body {
     padding-bottom: 1.875rem;
     margin-bottom: 3.125rem;
     align-self: center;
+    color: var(--tertiary-color);
 }
 
 #content > .res-name,
