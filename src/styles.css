@@ -251,3 +251,22 @@ textarea:focus,
 input:focus {
     outline: none;
 }
+
+#content > form > textarea {
+    padding-top: 10px;
+}
+
+#content > form > button {
+    width: 12.5rem;
+    align-self: center;
+}
+
+#content > form > button:hover {
+    background-color: var(--tertiary-color);
+    color: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+#content h2 {
+    font-weight: bold;
+}
