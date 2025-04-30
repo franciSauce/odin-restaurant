@@ -1,7 +1,7 @@
-import menu1 from "./img/0.png"
-import menu2 from "./img/1.png"
-import menu3 from "./img/2.png"
-import menu4 from "./img/3.png"
+import menu1Img from "./img/0.png";
+import menu2Img from "./img/1.png";
+import menu3Img from "./img/2.png";
+import menu4Img from "./img/3.png";
 
 function generateMenuPage() {
     const content = document.querySelector("#content");
@@ -13,10 +13,10 @@ function generateMenuPage() {
     const menu4 = new Image();
     menu.textContent = "Menu";
     menu.classList.add("menu");
-    menu1.src = menu1;
-    menu2.src = menu2;
-    menu3.src = menu3;
-    menu4.src = menu4;
+    menu1.src = menu1Img;
+    menu2.src = menu2Img;
+    menu3.src = menu3Img;
+    menu4.src = menu4Img;
     content.appendChild(menu);
     content.appendChild(menu1);
     content.appendChild(menu2);
