@@ -174,5 +174,35 @@ body {
     cursor: pointer;
 }
 
+#content {
+    background-color: var(--primary-color);
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+    padding-bottom: 1.875rem;
+    margin-bottom: 3.125rem;
+    align-self: center;
+}
+
+#content > .res-name,
+#content > .menu,
+#content > .about {
+    margin: 1.875rem;
+    font-size: 3rem;
+    padding-bottom: 0px;
+    border-bottom: 4px solid var(--tertiary-color);
+}
+
+#content > div,
+#content > form {
+    padding: 1.25rem 1.25rem;
+    margin: 0px 3.125rem;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
 
 
