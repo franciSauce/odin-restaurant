@@ -1,0 +1,60 @@
+import mapImg from "./img/loc.jpg";
+
+function generateAboutPage() {
+    const content = document.querySelector("#content");
+    content.innerHTML = "";
+    const contactTitle = document.createElement("div");
+    const contactText = document.createElement("div");
+    const form = document.createElement("form");
+    const contactTextTitle = document.createElement("h2");
+    const locationText = document.createElement("p");
+    const locationText2 = document.createElement("p");
+    const locationText3 = document.createElement("p");
+    const formTitle = document.createElement("h2");
+    const groupDiv = document.createElement("div");
+    const firstName = document.createElement("input");
+    const lastName = document.createElement("input");
+    const email = document.createElement("input");
+    const subject = document.createElement("input");
+    const body = document.createElement("textarea");
+    const submit = document.createElement("button");
+    const map = new Image();
+    contactTitle.classList.add("contact");
+    firstName.setAttribute("type", "text");
+    firstName.setAttribute("placeholder", "First Name");
+    lastName.setAttribute("type", "text");
+    lastName.setAttribute("placeholder", "Last Name");
+    email.setAttribute("type", "email");
+    email.setAttribute("placeholder", "Email");
+    subject.setAttribute("type", "text");
+    subject.setAttribute("placeholder", "Subject");
+    body.setAttribute("rows", "10");
+    body.setAttribute("cols", "30");
+    body.setAttribute("placeholder", "Leave us a message");
+    map.src = mapImg;
+    contactTitle.textContent = "Contact Us";
+    contactText.textContent = "Contact Info:";
+    locationText.textContent = "Fort Frogs: 072025290401.";
+    locationText2.textContent = "Kingdom Frogs: 072025300402.";
+    locationText3.textContent = "Frog Palace: 072025310403"
+    formTitle.textContent = "We welcome your feedback";
+    submit.textContent = "Submit";
+    content.appendChild(contactTitle);
+    content.appendChild(contactText);
+    content.appendChild(map);
+    content.appendChild(form);
+    contactText.appendChild(locationText);
+    contactText.appendChild(locationText2);
+    contactText.appendChild(locationText3);
+    contactText.appendChild(contactTextTitle);
+    form.appendChild(formTitle);
+    form.appendChild(groupDiv);
+    form.appendChild(subject);
+    form.appendChild(body);
+    form.appendChild(submit);
+    groupDiv.appendChild(firstName);
+    groupDiv.appendChild(lastName);
+    groupDiv.appendChild(email);
+}
+
+export default generateAboutPage;
