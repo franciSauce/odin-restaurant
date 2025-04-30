@@ -37,9 +37,9 @@ function generateHomePage() {
     saturday.textContent = "Saturday: 10am - 11pm";
     sunday.textContent = "Sunday: 10am - 11pm";
     locationTitle.textContent = "Location";
-    locationText.textContent = "1234 Main St.";
-    locationText2.textContent = "Anytown, USA";
-    locationText3.textContent = "12345";
+    locationText.textContent = "Fort Frogs.";
+    locationText2.textContent = "Kingdom Frogs";
+    locationText3.textContent = "Frog Palace";
     content.appendChild(resName);
     content.appendChild(img);
     content.appendChild(summary);
