@@ -1,3 +1,4 @@
+import "./styles.css";
 import generateHomePage from "./home";
 import generateMenuPage from "./menu";
 import generateAboutPage from "./about";
